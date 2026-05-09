@@ -1,0 +1,36 @@
+<<<<<<< HEAD
+venv/
+__pycache__/
+*.pyc
+.env
+backend/.env
+backend/chroma_db/
+.cache/
+.DS_Store
+Thumbs.db
+=======
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables — NEVER commit
+.env
+backend/.env
+
+# ChromaDB local data
+backend/chroma_db/
+chroma_db/
+
+# HuggingFace model cache
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+>>>>>>> d86b09709d055620450e8231098d973e8ef38363
+.vscode/
+.idea/
